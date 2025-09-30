@@ -1,1 +1,3 @@
 *.pdf
+/catboost_info
+*log
