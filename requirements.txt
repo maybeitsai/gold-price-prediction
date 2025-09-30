@@ -14,3 +14,4 @@ pandas==2.1.4
 matplotlib>=3.7.5
 scikit-learn>=1.4.2
 pycaret[full]<=3.3.2
+tensorflow==2.9.1
