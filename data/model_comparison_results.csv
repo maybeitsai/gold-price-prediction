@@ -1,91 +1,77 @@
-model,feature_selection,r2_score,mae,mape,mse,rmse
-Gradient Boosting Regressor,all_variables,0.9229,103.8595,0.1112,22026.19,125.9124
-Gradient Boosting Regressor,feature_importance,0.901,117.6994,0.1463,25859.3822,145.7595
-Random Forest Regressor,feature_importance,0.8873,131.7008,0.1876,31856.6475,150.441
-Extra Trees Regressor,pca,0.8859,106.7146,0.1752,26989.2115,144.8925
-Extra Trees Regressor,feature_importance,0.8854,113.1001,0.1375,30301.3102,142.7149
-CatBoost Regressor,feature_importance,0.8775,131.0082,0.2066,34868.4483,150.4179
-Random Forest Regressor,all_variables,0.8745,129.0489,0.1701,37226.0422,156.6581
-AdaBoost Regressor,all_variables,0.8595,144.3688,0.1748,38717.4428,168.5184
-Extra Trees Regressor,all_variables,0.8533,134.5746,0.1545,43144.7795,174.2702
-AdaBoost Regressor,pca,0.852,147.3553,0.2191,45262.2118,184.2505
-Extreme Gradient Boosting,feature_importance,0.8456,134.2318,0.1646,35562.9508,178.3714
-CatBoost Regressor,all_variables,0.8414,146.5132,0.2077,49049.9408,180.7856
-Extreme Gradient Boosting,all_variables,0.8402,131.5304,0.1525,37185.1773,178.8823
-AdaBoost Regressor,feature_importance,0.8258,150.6887,0.1848,43282.3238,183.1541
-Gradient Boosting Regressor,pca,0.8239,141.8288,0.2388,50398.5113,183.4743
-K Neighbors Regressor,feature_importance,0.8093,177.1336,0.2565,50981.0191,208.043
-Random Forest Regressor,pca,0.7765,160.9785,0.249,61383.5555,213.8935
-Decision Tree Regressor,feature_importance,0.7667,177.2631,0.2151,54344.7696,212.4165
-TheilSen Regressor,all_variables,0.7208,157.3869,0.2512,68914.2466,228.9991
-Decision Tree Regressor,pca,0.7079,172.3089,0.311,68426.3373,229.1284
-Decision Tree Regressor,all_variables,0.702,184.1939,0.2111,66033.0369,233.4983
-CatBoost Regressor,pca,0.6521,216.4759,0.3244,100436.2433,273.1511
-Ridge Regression,feature_importance,0.6343,226.3129,0.4238,90433.4281,291.3605
-Elastic Net,feature_importance,0.6203,240.0747,0.4381,103910.3038,292.0254
-Extreme Gradient Boosting,pca,0.5996,180.5577,0.2815,83984.9431,237.9551
-K Neighbors Regressor,all_variables,0.5946,228.7635,0.3688,101510.9339,287.2823
-Automatic Relevance Determination,feature_importance,0.5629,199.5454,0.244,89793.4449,266.6671
-K Neighbors Regressor,pca,0.5561,238.2396,0.3899,110931.7084,299.6795
-Lasso Regression,feature_importance,0.5393,212.0596,0.3017,93762.0734,271.9159
-Lasso Least Angle Regression,feature_importance,0.5392,212.1408,0.3019,93801.3209,272.0102
-Passive Aggressive Regressor,feature_importance,0.5188,247.8353,0.4456,98944.9655,298.5496
-Linear Regression,feature_importance,0.5124,212.2029,0.2956,97313.8137,273.4121
-Random Sample Consensus,feature_importance,0.4837,206.4986,0.318,105284.8104,281.2997
-Huber Regressor,feature_importance,0.4825,188.4342,0.2169,100256.4432,251.4725
-Elastic Net,all_variables,0.4708,262.3084,0.5445,150692.9484,344.6414
-Ridge Regression,all_variables,0.4705,209.9858,0.4728,164581.0402,305.2563
-Automatic Relevance Determination,all_variables,0.462,207.9538,0.4023,136884.9378,314.4745
-Lasso Least Angle Regression,all_variables,0.4606,194.203,0.3954,143536.286,299.9212
-Bayesian Ridge,feature_importance,0.4585,231.1208,0.4037,114654.0656,317.764
-Bayesian Ridge,all_variables,0.441,197.5273,0.4236,163987.104,302.8764
-TheilSen Regressor,feature_importance,0.4383,216.2757,0.3821,118704.1142,313.1709
-Random Sample Consensus,all_variables,0.4209,208.6835,0.3921,160802.7278,306.7986
-Linear Regression,all_variables,0.4164,211.888,0.3965,161709.368,312.2826
-Elastic Net,pca,0.3809,277.7145,0.5895,174531.4562,372.1075
-Lasso Regression,all_variables,0.3687,203.5702,0.4271,174180.7404,319.9742
-Huber Regressor,all_variables,0.1962,244.757,0.4879,234065.608,360.155
-Passive Aggressive Regressor,all_variables,0.0748,302.4279,0.7127,269453.762,423.1268
-Orthogonal Matching Pursuit,pca,0.0477,421.7006,0.7503,259028.425,465.3329
-Automatic Relevance Determination,pca,0.0107,328.5466,0.7456,284364.7344,456.4421
-Bayesian Ridge,pca,0.0055,303.9555,0.7159,295308.5078,443.5471
-Ridge Regression,pca,0.0023,302.6026,0.7147,295761.95,442.41
-Huber Regressor,pca,-0.0397,328.3559,0.7848,297049.2401,461.7402
-Random Sample Consensus,pca,-0.0665,302.733,0.7014,320444.0047,450.9936
-Lasso Regression,pca,-0.07,308.402,0.7329,318581.8922,453.461
-Lasso Least Angle Regression,pca,-0.0701,308.4084,0.733,318617.8141,453.4771
-Linear Regression,pca,-0.081,308.4763,0.7339,322300.8109,454.6348
-Least Angle Regression,pca,-0.081,308.4763,0.7339,322300.6797,454.6347
-Orthogonal Matching Pursuit,all_variables,-0.1138,461.8031,0.8871,279534.5734,507.2941
-Orthogonal Matching Pursuit,feature_importance,-0.1138,461.8031,0.8871,279534.5734,507.2941
-Passive Aggressive Regressor,pca,-0.1247,396.7989,0.7843,329412.6169,512.9193
-Light Gradient Boosting Machine,pca,-0.325,532.039,0.9403,346064.6335,569.4659
-Light Gradient Boosting Machine,all_variables,-0.325,532.039,0.9403,346064.6335,569.4659
-Light Gradient Boosting Machine,feature_importance,-0.325,532.039,0.9403,346064.6335,569.4659
-Support Vector Regression,feature_importance,-0.3887,541.1648,0.8724,380473.4249,581.391
-Support Vector Regression,pca,-0.397,542.7799,0.8751,382700.2444,583.0819
-Support Vector Regression,all_variables,-0.3976,542.892,0.8753,382833.8378,583.2039
-TheilSen Regressor,pca,-0.4926,320.2162,0.8185,442418.8879,508.0954
-Least Angle Regression,feature_importance,-1.5911,382.4528,0.8965,461711.4408,507.5075
-MLP Regressor,all_variables,-2.3978,793.1594,0.8755,881053.625,906.6656
-MLP Regressor,pca,-2.6959,830.9936,0.9253,956723.725,947.0613
-MLP Regressor,feature_importance,-2.7858,819.7576,0.8569,974729.8875,957.5471
-Kernel Ridge,feature_importance,-3.3434,883.9491,1.4289,1025705.1375,1000.0596
-Kernel Ridge,all_variables,-6.4709,1119.602,1.8168,1991496.2375,1349.2766
-Kernel Ridge,pca,-12.8013,1352.5731,2.7117,4121064.7,1700.8284
-CNN,pca,-401.41310771472627,1341.106039530437,73.23114474397397,1814684.9482268847,1347.102426776407
-CNN,all_variables,-600.1556991472388,1642.6077771250414,89.78201067757615,2710916.1651778426,1646.4860051569958
-CNN,feature_importance,-605.7362938627834,1652.574820048015,90.37005705585808,2736081.8991917367,1654.1106066982754
-CNN-GRU,all_variables,-695.1807931565894,1770.5727086130785,96.8391694685623,3139432.544233909,1771.844390524718
-CNN-LSTM,pca,-698.7264525026432,1775.083313471477,97.08625670545662,3155421.7218314363,1776.350675354232
-CNN-GRU,pca,-700.0223446875902,1776.7267384592699,97.17616646733049,3161265.5574259157,1777.9948136667654
-GRU,pca,-702.7194056970862,1780.1160655085253,97.36025604091546,3173427.974416198,1781.4117924882496
-CNN-GRU,feature_importance,-704.0526819831242,1781.8338208262132,97.45585330045837,3179440.393896868,1783.0985373492033
-CNN-LSTM,all_variables,-707.842549672717,1786.6277861658739,97.71864513807446,3196530.830863824,1787.8844567991032
-CNN-LSTM,feature_importance,-708.614994653357,1787.598730570476,97.77163404696793,3200014.1773374546,1788.8583446817288
-LSTM,pca,-729.0764362820831,1812.5548929821955,99.11197065338612,3292285.2028851486,1814.4655419393196
-GRU,all_variables,-736.9199277118921,1822.722212164502,99.68455433251144,3327655.4867212083,1824.1862532979487
-LSTM,all_variables,-740.6410345971894,1827.5151472751306,99.95601693429931,3344435.846321919,1828.7798791330572
-LSTM,feature_importance,-741.2965024831533,1828.3551644522952,100.00368923146586,3347391.683703707,1829.5878453093492
-GRU,feature_importance,-742.3940272152187,1829.7039510075258,100.07733311021676,3352340.979771363,1830.9399170293282
-Least Angle Regression,all_variables,-1240801.917,140963.1324,457.3918,412791616141.25,295511.8276
+model,feature_selection,r2_score,mae,mape,mse,rmse,is_tuned,is_linear
+Lasso Least Angle Regression,all_variables,0.9899651078037043,42.25382614135742,3.1614065170288086,3176.5908203125,56.36125183105469,True,True
+Lasso Regression,all_variables,0.9899290013915779,42.17656326293945,3.1049618497490883,3188.0205078125,56.46255874633789,True,True
+Automatic Relevance Determination,all_variables,0.9831050918584543,53.6120491027832,4.085869714617729,5348.16064453125,73.13111877441406,True,True
+Huber Regressor,all_variables,0.9768933301288139,70.36143252509721,6.817395043286642,7314.522307826552,85.52498060699314,True,True
+Gradient Boosting Regressor,feature_importance,0.9609625851352736,87.72804393485767,8.526872402314062,12357.472689043256,111.1641699876505,True,False
+Gradient Boosting Regressor,feature_importance,0.9321,113.5063,0.1557,23275.3512,134.6532,False,False
+AdaBoost Regressor,all_variables,0.9223,117.4645,0.149,25014.2025,153.5164,False,False
+Decision Tree Regressor,feature_importance,0.9105660568851447,125.76262240939673,12.960250009166666,28310.724809646486,168.2579115811393,True,False
+Random Forest Regressor,feature_importance,0.9075814476703571,131.9450334821427,12.233420834376012,29255.516543090154,171.04244076570632,True,False
+Random Forest Regressor,feature_importance,0.8943,138.0871,0.1849,35588.6277,172.8321,False,False
+AdaBoost Regressor,feature_importance,0.8854308926927831,132.63412848578557,12.54358728962925,36267.37629689408,190.43995457070997,True,False
+Decision Tree Regressor,feature_importance,0.8788,145.6523,0.1923,36906.2616,181.9993,False,False
+AdaBoost Regressor,feature_importance,0.8721,147.445,0.191,38818.5867,196.8703,False,False
+CatBoost Regressor,feature_importance,0.8689,151.1029,0.2075,43833.6969,189.6004,False,False
+Gradient Boosting Regressor,all_variables,0.8682,139.9055,0.1564,41264.1939,200.4048,False,False
+AdaBoost Regressor,all_variables,0.844139074292569,167.6500981648763,15.392498393844651,49338.49076309928,222.1226930394535,True,False
+Lasso Least Angle Regression,all_variables,0.8287,148.0044,0.2466,48481.7357,209.9287,False,True
+Lasso Regression,all_variables,0.8281,148.2816,0.2474,48647.2682,210.2698,False,True
+Extra Trees Regressor,feature_importance,0.82,176.2569,0.2047,56942.4855,231.3395,False,False
+CatBoost Regressor,all_variables,0.8068,186.2821,0.2447,59847.137,242.5005,False,False
+Random Forest Regressor,all_variables,0.7944,185.7282,0.2285,67246.8643,247.7111,False,False
+Extra Trees Regressor,all_variables,0.7807,192.2268,0.2126,70376.2583,252.0987,False,False
+Extra Trees Regressor,pca,0.7731,201.4206,0.3033,71062.9104,263.5181,False,False
+AdaBoost Regressor,pca,0.7375,186.5415,0.26,80186.1545,282.8457,False,False
+Elastic Net,feature_importance,0.718197676158431,267.0290222167969,45.6453412771225,89205.8203125,298.6734313964844,True,True
+Automatic Relevance Determination,all_variables,0.71,198.675,0.2824,83468.4115,284.0935,False,True
+Random Forest Regressor,pca,0.6601,226.3163,0.3202,101320.2461,317.9538,False,False
+Huber Regressor,all_variables,0.6483,206.6533,0.3454,101580.9725,294.4102,False,True
+Elastic Net,feature_importance,0.5654,261.6373,0.518,130964.0391,351.1753,False,True
+Bayesian Ridge,all_variables,0.5629,201.2922,0.3846,121304.862,304.4708,False,True
+Gradient Boosting Regressor,pca,0.5548,241.9646,0.3262,133692.1337,365.4086,False,False
+TheilSen Regressor,feature_importance,0.5389,247.0098,0.3951,136747.9047,351.7985,False,True
+Lasso Least Angle Regression,feature_importance,0.5195,261.5711,0.3574,148400.25,371.7444,False,True
+Lasso Regression,feature_importance,0.5194,261.5963,0.3574,148419.8034,371.7599,False,True
+CatBoost Regressor,pca,0.5179,291.1031,0.4095,148954.2356,383.4634,False,False
+Automatic Relevance Determination,feature_importance,0.5134,294.9484,0.4626,147633.2292,381.6166,False,True
+Bayesian Ridge,feature_importance,0.5103,279.7374,0.4331,150488.6836,374.7663,False,True
+Decision Tree Regressor,all_variables,0.4918,270.2577,0.2844,145798.9667,374.3766,False,False
+Linear Regression,feature_importance,0.4761,269.8289,0.3327,166140.806,388.7699,False,True
+Huber Regressor,feature_importance,0.4653,271.4966,0.3364,165074.1496,396.0741,False,True
+Extreme Gradient Boosting,pca,0.4635,281.1251,0.3453,160375.5469,397.4009,False,False
+Decision Tree Regressor,pca,0.4425,255.339,0.3226,165017.2731,405.1445,False,False
+Elastic Net,all_variables,0.4329,261.6904,0.5498,166277.069,367.0265,False,True
+Least Angle Regression,feature_importance,0.4178,294.4658,0.4026,181778.0404,405.4054,False,True
+Random Sample Consensus,feature_importance,0.4111,312.4327,0.4727,184427.2812,422.3252,False,True
+Elastic Net,pca,0.3538,276.7894,0.5893,188928.5898,394.0198,False,True
+Orthogonal Matching Pursuit,pca,0.3287,380.6411,0.7153,198267.4635,432.7983,False,True
+Orthogonal Matching Pursuit,feature_importance,0.2239,440.5821,0.8469,245292.7812,486.6545,False,True
+Extreme Gradient Boosting,feature_importance,0.1911,346.766,0.3803,248046.3268,452.1652,False,False
+Ridge Regression,feature_importance,0.1514,312.6177,0.6843,238596.1641,434.9468,False,True
+Ridge Regression,all_variables,0.0902,256.6498,0.598,252393.6504,407.5171,False,True
+Light Gradient Boosting Machine,pca,-0.0459,519.1151,0.9165,322607.0622,566.0517,False,False
+Light Gradient Boosting Machine,all_variables,-0.0459,519.1151,0.9165,322607.0622,566.0517,False,False
+Light Gradient Boosting Machine,feature_importance,-0.0459,519.1151,0.9165,322607.0622,566.0517,False,False
+TheilSen Regressor,all_variables,-0.2252,312.9342,0.6127,331117.0701,425.9685,False,True
+Passive Aggressive Regressor,feature_importance,-0.235,393.8495,0.8577,344997.3671,532.2593,False,True
+Extreme Gradient Boosting,all_variables,-0.2714,443.8583,0.5286,373064.3021,604.1865,False,False
+Passive Aggressive Regressor,all_variables,-0.5456,371.3567,0.8606,429916.2519,567.02,False,True
+Ridge Regression,pca,-0.5968,377.0253,0.8878,446757.0182,588.0748,False,True
+Bayesian Ridge,pca,-0.6084,369.7697,0.8761,448696.2292,579.9587,False,True
+Random Sample Consensus,all_variables,-0.658,420.605,0.735,462610.6667,573.3329,False,True
+Linear Regression,all_variables,-0.658,420.6052,0.735,462607.5586,573.332,False,True
+Huber Regressor,pca,-0.8283,436.9423,1.0184,516250.586,669.1061,False,True
+Automatic Relevance Determination,pca,-0.8909,384.1637,0.9377,521939.4036,614.3058,False,True
+Passive Aggressive Regressor,pca,-0.9243,409.598,0.9686,535202.5401,647.6074,False,True
+Lasso Regression,pca,-0.9275,408.9066,0.9714,537778.0182,642.9816,False,True
+Lasso Least Angle Regression,pca,-0.9281,408.942,0.9715,537940.6484,643.0584,False,True
+Linear Regression,pca,-0.9492,411.79,0.9776,544079.2005,647.3407,False,True
+Least Angle Regression,pca,-0.9492,411.7897,0.9776,544078.3125,647.3403,False,True
+Orthogonal Matching Pursuit,all_variables,-1.1508,617.8209,1.2734,616755.9792,758.2838,False,True
+TheilSen Regressor,pca,-2.2472,446.3604,1.1561,883987.9263,772.1986,False,True
+Random Sample Consensus,pca,-2.7485,567.0495,1.4136,1034137.9375,909.8047,False,True
+Kernel Ridge,feature_importance,-5.5947,1108.604,1.8606,1962118.0,1390.1616,False,True
+Kernel Ridge,all_variables,-9.53,1255.0098,1.9871,3073318.9167,1713.7169,False,True
+Kernel Ridge,pca,-29.929,1552.3263,3.4136,8467307.0417,2402.8103,False,True
+Least Angle Regression,all_variables,-8640431.0849,746119.9322,1352.8947,2376878062681.6665,1258937.0845,False,True
